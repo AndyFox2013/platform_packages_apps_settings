@@ -57,6 +57,26 @@
         android:breadCrumbTitle="@string/wireless_networks_settings_title"
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
+    
+    <!-- Beer.Gang.Project Go! -->
+    <header
+    android:title="@string/header_category_interface" />
+    
+    <!-- Launcher -->
+    <header
+        android:id="@+id/launcher_settings"
+        android:title="@string/launcher_settings_title"
+        android:icon="@drawable/ic_settings_cmlauncher" />
+    
+    <!-- System -->
+    <header
+        android:id="@+id/system_settings"
+        android:icon="@drawable/ic_settings_system"
+        android:fragment="com.android.settings.bgp.SystemSettings"
+        android:title="@string/system_settings_title" />
+
+    <!-- Beer.Gang.Project Stop! -->
+
 
     <!-- DEVICE -->
     <header android:id="@+id/device_section"

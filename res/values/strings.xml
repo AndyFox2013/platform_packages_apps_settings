@@ -1927,8 +1927,6 @@
     <string name="build_number">Build number</string>
     <!-- About phone screen,  setting option name-->
     <string name="selinux_status">SELinux status</string>
-    <string name="mod_version">Beer Gang Project version</string>
-    <string name="mod_version_default">Unknown</string>
 
     <!-- About phone screen, show when a value of some status item is unavailable. -->
     <string name="device_info_not_available">Not available</string>
@@ -4536,4 +4534,19 @@
 
     <!-- Text to display in regulatory info screen (from device overlay). -->
     <string name="regulatory_info_text"></string>
+    
+    <!-- Beer.Gang.Project Tweaks  -->
+    <!-- Settings main menu category heading -->
+    <string name="header_category_interface">BEERGANGPROJECT</string>
+    <!-- System Interface settings  -->
+    <string name="system_settings_title">Tweaking</string>
+    <string name="system_interface_title">Tweaking</string>
+    
+    <!-- About Phone, BeerGangProject version -->
+    <string name="mod_version">BGP version</string>
+    <string name="mod_version_default">Unknown</string>
+    
+    <!-- Launcher settings  -->
+    <string name="launcher_settings_title">Launcher</string>
+    
 </resources>

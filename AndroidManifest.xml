@@ -1644,6 +1644,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
+        <!-- Beer.Gang.Project Tweaks Go! -->
+        
+        <activity android:name=".bgp.SystemSettings" />
+        
+        <!-- Beer.Gang.Project Tweaks Stop! -->
 
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
